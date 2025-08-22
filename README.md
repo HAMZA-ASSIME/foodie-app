@@ -1,12 +1,10 @@
-# React + Vite
+# Foodie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet est une application web développée avec **React.js**, **HTML5**, **CSS3**, **JavaScript** et **Bootstrap** pour le style et la mise en page.  
 
-Currently, two official plugins are available:
+L'application permet aux utilisateurs de naviguer et d'interagir avec différents produits. J'ai intégré **Redux** pour gérer efficacement les actions telles que :  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Ajouter des produits au **panier**  
+- Ajouter des produits à la **wishlist** (liste de favoris)  
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+L'objectif de ce projet est de créer une interface utilisateur moderne et réactive, tout en utilisant les bonnes pratiques de React et Redux pour la gestion de l'état global de l'application.

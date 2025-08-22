@@ -1,0 +1,71 @@
+.card{
+    border-style: none;
+    position: relative;
+}
+
+.card .bi.bi-suit-heart-fill{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.card .bi.bi-suit-heart-fill:hover{
+    color: red;
+}
+
+.favorito {
+  color: red !important;
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+
+.card-imgs{
+    height: 280px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+
+.card-body{
+    background-color: #14213D;
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card-body P{
+    color: #E5E5E5;
+}
+
+.voir-btn{
+    background-color: transparent;
+    border-style: none;
+    color: #FCA311;
+    padding-left: 0;
+    position: relative;
+}
+
+.voir-btn:hover{
+    background-color: transparent;
+}
+
+.voir-btn::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+    background-color: #FCA311;
+}
+
+.voir-btn:hover::before{
+    transform-origin: left;
+    transform: scaleX(1);
+}

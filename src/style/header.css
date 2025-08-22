@@ -1,0 +1,32 @@
+/* navbar */
+nav{
+    background-color: #FCA311;
+}
+
+.bi.bi-cart-fill.icon-btn{
+    cursor: pointer;
+}
+
+.search-input:focus{
+    border-color: #14213D;
+    box-shadow: 0 0 0 .25rem rgb(0 0 0 / 25%);
+}
+
+.cart-items {
+  max-height: 400px;
+  overflow-y: auto;
+}
+.cart-items p {
+  margin: 0;
+}
+
+.favorie-btn{
+    background-color: #14213D;
+    color: white;
+}
+
+.favorie-btn:hover{
+    background-color: #14213D;
+    color: #FCA311;
+}
+
